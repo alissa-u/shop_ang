@@ -1,0 +1,14 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
