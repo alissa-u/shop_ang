@@ -50,6 +50,7 @@ import { ProductItemComponent } from './products/product-item/product-item.compo
 import { ProductsComponent } from './products/products.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { LoginComponent } from './login/login.component';
     ProductItemComponent,
     ProductsComponent,
     ShoppingCartComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
