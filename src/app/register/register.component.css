@@ -1,0 +1,32 @@
+.mat-card-actions, .mat-card-content, .mat-card-subtitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-card-header-text {
+    margin: 0 50% !important;
+}
+
+.mat-card-header .mat-card-title{
+    margin-left: 50%;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 166, 0);
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.box{
+    background-color: #ffffff;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 66%;
+}
