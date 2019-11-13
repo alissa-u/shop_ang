@@ -6,6 +6,11 @@ import { RegisterComponent } from "./register/register.component"
 import { ShoppingCartComponent } from "./shopping-cart/shopping-cart.component"
  
 const appRoutes: Routes = [
+  { 
+    path: '', 
+    pathMatch: 'full', 
+    redirectTo: 'menu'
+  },
   {
     path: "menu",
     component: ProductsComponent
